@@ -66,10 +66,11 @@ a, p{
   border: 0;
   text-align: center;
   align-items: center;
-  width: 110px;
-  height: 30px;
+  width: 150px;
+  height: 40px;
   color: #F9FAF8;
   font-weight: bolder;
+  font-size: 20px;
 }
 
 .bigimage{
@@ -146,4 +147,49 @@ a, p{
   font-weight: 900;
   padding: 0 60px;
   align-self: flex-end;
+}
+
+.section4{
+  padding: 100px;
+}
+
+.callbox-container{
+  display: flex;
+  padding: 50px 150px;
+  background-color: #3882F6;
+  border-radius: 15px;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.calltoaction{
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.calltitle{
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.calltext{
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.callbox-container button{
+  border: 2px solid #E5E7EB;
+  flex-shrink: 0;
+}
+
+footer{
+  background-color: #1F2937;
+  color: #F9FAF8;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
 }
