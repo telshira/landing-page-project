@@ -6,6 +6,10 @@ body{
   flex-direction: column;
 }
 
+[class^="section"], footer{
+  padding: 0 10%;
+}
+
 .section1{
   display: flex;
   flex-direction: column;
@@ -125,12 +129,14 @@ a, p{
 
 .section3{
   background-color: #E5E7EB;
+  padding: 0 20%;
+}
+
+.quotebox{
+  margin: 100px 0;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-flow: column wrap;
   align-items: center;
-  margin: 0;
-  padding: 50px 0;
 }
 
 .quote{
@@ -138,19 +144,20 @@ a, p{
   color: #1F2937;
   font-style: italic;
   font-weight: 100;
-  padding: 25px 100px;
+  padding:0;
 }
 
 .author{
   color:#1F2937;
   font-size: 24px;
   font-weight: 900;
-  padding: 0 60px;
+  padding: 0;
+  margin: 0;
   align-self: flex-end;
 }
 
 .section4{
-  padding: 100px;
+  padding: 100px 10%;
 }
 
 .callbox-container{
