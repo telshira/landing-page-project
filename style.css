@@ -39,13 +39,18 @@ a, p{
 
 .content{
   display: flex;
-  flex: auto;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  margin-bottom: 100px;
+  gap: 30px;
 }
 
 .leftcontent{
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-start;
+  text-align: left;
+  max-width: 400px;
 }
 
 .maintitle{
@@ -65,4 +70,15 @@ a, p{
   height: 30px;
   color: #F9FAF8;
   font-weight: bolder;
+}
+
+.bigimage{
+  padding: 0;
+  margin: 0;
+}
+
+.bigimage img{
+  border-radius: 20px;
+  width: 400px;
+  height: auto;
 }
