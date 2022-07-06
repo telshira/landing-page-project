@@ -39,7 +39,7 @@ a, p{
 
 .content{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap-reverse;
   margin-bottom: 100px;
   gap: 30px;
@@ -87,36 +87,63 @@ a, p{
   display: flex;
   flex-direction: column;
   text-align: center;
-  }
+}
   
-  .section2title{
+.section2title{
   font-size: 36px;
   font-weight: 900;
   color: #1F2937;
   justify-content: center;
   padding: 50px 0px;
-  }
+}
   
-  .examples{
+.examples{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  }
+}
   
-  .illustration{
+.illustration{
     padding:0 15px;
     margin: 0 20px 100px 20px;
   }
-  .illustration img{
+
+.illustration img{
   width: 150px;
   height: 150px;
   border-radius: 15px;
   border: 2px solid #3882F6;
-  }
+}
 
-  .text{
+.text{
     width: 150px;
     text-align: center;
     color: #727070;
     font-size: 15px;
-  }
+}
+
+.section3{
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 50px 0;
+}
+
+.quote{
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+  font-weight: 100;
+  padding: 25px 100px;
+}
+
+.author{
+  color:#1F2937;
+  font-size: 24px;
+  font-weight: 900;
+  padding: 0 60px;
+  align-self: flex-end;
+}
