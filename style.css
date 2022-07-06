@@ -82,3 +82,41 @@ a, p{
   width: 400px;
   height: auto;
 }
+
+.section2{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  }
+  
+  .section2title{
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  justify-content: center;
+  padding: 50px 0px;
+  }
+  
+  .examples{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  }
+  
+  .illustration{
+    padding:0 15px;
+    margin: 0 20px 100px 20px;
+  }
+  .illustration img{
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  border: 2px solid #3882F6;
+  }
+
+  .text{
+    width: 150px;
+    text-align: center;
+    color: #727070;
+    font-size: 15px;
+  }
