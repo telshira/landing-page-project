@@ -82,6 +82,7 @@ a, p{
   padding: 0;
   margin: 0;
   width: 50vw;
+  height: auto;
   flex: 1;
   min-width: 400px;
 }
@@ -166,7 +167,7 @@ a, p{
 
 .callbox-container{
   display: flex;
-  padding: 50px 150px;
+  padding: 50px 15%;
   background-color: #3882F6;
   border-radius: 15px;
   justify-content: space-between;
